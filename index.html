@@ -2,9 +2,11 @@
 <html>
 	<head>
 		<title>Moje první stránka</title>
+		<link rel="stylesheet" href="styles/styles.css">
 	</head>
 	<body>
-		<h1 title="nadpis">Ahoj</h1>
+		<h1 title="nadpis" id="prvni" class="prvni-trida tucna-trida">Ahoj</h1>
+		<h1>ahoj</h1>
 		<img src="img1.jpg" alt="kocka">
 		<a href="https://www.google.cz"> odkaz na Google </a>
 		<div>
@@ -22,9 +24,9 @@
 		<table border="1">
 			<thead>
 				<tr>
-					<th>jmeno</th>
-					<th>prijmeni</th>
-					<th>vek</th>
+					<th class="tucna-trida">jmeno</th>
+					<th class="tucna-trida">prijmeni</th>
+					<th class="tucna-trida">vek</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -40,5 +42,8 @@
 				</tr>
 			</tbody>
 		</table>
+		<p>
+			Jedna <span class="cisla">dvě</span> tři čtyři
+		</p>
 	</body>
 </html>
